@@ -21,6 +21,12 @@ Create a file named Voting.sol in your contracts directory.
 
 1.3 Deploying the Smart Contract
 Create a migration script in the migrations directory.
+javascript code
+const Voting = artifacts.require("Voting");
+
+module.exports = function(deployer) {
+    deployer.deploy(Voting, "My First Election");
+};
 Run the deployment:(bash)
 truffle migrate --network development
 

@@ -21,7 +21,7 @@ Create a file named Voting.sol in your contracts directory.
 
 1.3 Deploying the Smart Contract
 Create a migration script in the migrations directory.
-javascript code
+(javascript code)
 const Voting = artifacts.require("Voting");
 
 module.exports = function(deployer) {
